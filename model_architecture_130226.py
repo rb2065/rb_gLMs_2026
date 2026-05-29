@@ -18,6 +18,7 @@ from matplotlib.backends.backend_pdf import PdfPages
 
 DNABERT_LOCAL_PATH = "/home/rb2065/rds/rds-berners-lee-RCkqvqaENjU/huggingface_boemo/models--MBoemo--DNABERT-2-117M-Flash/snapshots/8be1414aab8283f09008c17651bc60beae65d77b"
 # adding to the example comment
+# more example comments
 class DNABERTChunkAttentionRegressor(nn.Module):
     def __init__(
         self,
